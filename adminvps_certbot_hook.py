@@ -53,8 +53,8 @@ logger = logging.getLogger(__name__)
 class AdminVPSDNS:
     def __init__(self):
         self.session = requests.Session()
-        self.api_url = "https://adminvps.ru"
-        self.login_url = "https://adminvps.ru"
+        self.api_url = "https://my.adminvps.ru/index.php?m=DNSManager2"
+        self.login_url = "https://my.adminvps.ru/login"
 
     def login(self):
         try:
